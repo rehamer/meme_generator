@@ -1,0 +1,65 @@
+.inputBoxes {
+    background-color: rgb(245, 214, 174);
+    position: relative;
+    font-family: Arial;
+    text-indent: 10px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 300px;
+    max-width: 100%;
+  }
+
+.addMeme {
+    background-color: rgb(67, 180, 67);
+    border-radius: 5px;
+    border: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.addmeme:active {
+    transform: scale(0.98);
+    background-color: rgb(8, 59, 30);
+}
+
+.imgs {
+    position: relative;
+    text-align: center;
+}
+
+.imgs .topText {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px red, -2px -2px 2px blue;;
+}
+
+.imgs .bottomText {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px red, -2px -2px 2px blue;;
+}

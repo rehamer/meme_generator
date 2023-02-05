@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="memeGenerator.css">
+</head>
+<body>
+    <form class ="inputBoxes" type ='submit'>
+        <h1>I can meme !!!</h1>
+        <h4>Fill out the form and start creating meme. Sample below.</h4>    
+        <div>
+            <label for="imageLink">Image URL: </label>
+            <input type="text" id="imageLink" placeholder="paste URL here">
+        </div>
+        <div>
+            Text on top: <input type="text" id="topText">
+        </div>
+        <div>
+            Text on bottom: <input type="text" id="bottomText">
+        </div>
+        <button class="addMeme">Add meme</button>
+    </form>
+    <section class="memeHolder">
+    </section>
+    <script src="memeGenerator.js"></script>
+</body>
+</html>
